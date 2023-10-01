@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/e4c481d2a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <div>
+          <img
+            src="./logo1.png"
+            class="logo"
+          />
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Programms</a></li>
+            <li><a href="#">Films</a></li>
+            <li><a href="#">Originals</a></li>
+            <li><a href="#">Recently Added</a></li>
+            <li><a href="#">My list</a></li>
+          </ul>
+        </div>
+        <nav class="box">
+          <div class="box2">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+          <a href="#"><h3>KIDS</h3></a>
+          <a href="#" id="ball"><i class="fa-solid fa-bell"></i></a>
+          <div class="images"><img src="./logo2.webp" class="logo2" /></div>
+          <select name="" id="select"></select>
+        </nav>
+      </header>
+      <div class="contaner">
+        <div class="content">
+          <h2><strong>NETFLIX</strong> ORIGINAL</h2>
+          <h3>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> YEAR ALL SEASONS <br />SERIES
+            DESCRIPTION
+          </h3>
+          <div class="playlist">
+            <div class="box1">
+              <a href="#" style="background: rgb(251, 12, 12); border: none"
+                ><i class="fa-solid fa-play"></i>PLAY</a
+              >
+              <a href="#" style="margin-left: 10px"
+                ><i class="fa-solid fa-plus"></i>MY LIST</a
+              >
+            </div>
+
+            <div class="like">
+              <a href="#"><i class="fa-solid fa-thumbs-up"></i></a>
+              <a href="#"><i class="fa-solid fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="menulist">
+            <a href="#"> OVERVIEW</a>
+            <a href="#">EPISODES</a>
+            <a href="#"> OVERVIEW</a>
+            <a href="#">DATAILS</a>
+          </div>
+          <div class="imagebox">
+            <h4>Continue For Watiching Video</h4>
+            <div class="imagebox2">
+         
+            <div class="image"><img src="./image 1.jpg" alt="" /></div>
+            <div class="image"><img src="./images2.jpeg" alt="" /></div>
+            <div class="image"><img src="./image3.jpeg" alt="" /></div>
+            <div class="image"><img src="./image 4.jpeg" alt="" /></div>
+            <div class="image"><img src="./images 5.jpeg" alt="" /></div>
+            <div class="image"><img src="./image 6.jpeg" alt="" /></div>
+            <div class="image"><img src="./image 7.jpeg" alt="" /></div>
+            <div class="image"><img src="./image 8.jpeg" alt="" /></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
