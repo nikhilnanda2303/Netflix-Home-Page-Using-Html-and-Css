@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  /* padding: 50px 0; */
+  display: flex;
+  /* background-color: #161616ed; */
+  background-image: url("./wallpaper.jpg");
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 40px;
+  display: flex;
+  cursor: pointer;
+}
+header .logo {
+  position: relative;
+  max-width: 200px;
+  top: -55px;
+  background: none;
+}
+header .navbar {
+  position: relative;
+  display: flex;
+}
+header .navbar li {
+  list-style: none;
+  display: inline-block;
+}
+header .navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 30px;
+ 
+}
+.box {
+  position: relative;
+  margin-left: 400px;
+  display: flex;
+}
+.box2 a .fa-solid {
+  color: rgba(236, 19, 19, 0.813);
+  font-size: 20px;
+}
+.box a h3 {
+  padding-left: 20px;
+  color: #ffff;
+  font-size: 17px;
+}
+.box #ball i {
+  font-size: 24px;
+  padding-left: 20px;
+  color: #fff;
+}
+.box .logo2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+select {
+  position: absolute;
+  margin-left: 12rem;
+}
+.contaner {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  /* margin: 8rem 50px; */
+}
+.contaner .content {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 500;
+  width: 100%;
+}
+.contaner .content h2 {
+  font-size: 35px;
+  color: #fff;
+  margin:10rem 80px;
+}
+.contaner .content h2 strong {
+  color: rgb(241, 17, 17);
+}
+.content h3 {
+  font-size: 23px;
+  color: #ffff;
+  font-weight: 500;
+  line-height: 40px;
+  margin: -100px 80px;
+}
+.content h3 i {
+  font-size: 20px;
+  color: rgb(241, 15, 15);
+}
+.content .playlist {
+  margin-top: 40px;
+  display: inline-block;
+  display: flex;
+  margin: 8rem 80px;
+}
+.playlist .box1 a {
+  text-decoration: none;
+  border: 1px solid wheat;
+  padding: 9px 23px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffff;
+}
+.playlist .box1 i {
+  padding-right: 10px;
+}
+.playlist .like {
+  margin-left: 30px;
+}
+.playlist .like a {
+  border: 1px solid wheat;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #ffff;
+}
+.content .menulist {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+}
+.content .menulist a {
+  font-size: 15px;
+  text-decoration: none;
+  margin:  20px 15px;
+  color: #ffff;
+}
+.imagebox{
+  width:100%;
+  background:black;
+  padding-top: 43px;
+  display: flex;
+  margin: -15px 0px;
+  display: inline-block;
+}
+.imagebox .imagebox2{
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.imagebox .image{
+  margin:0px 7px;
+  display: flex;
+  display: inline-block;
+  width:180px;
+ justify-content: space-between;
+}
+.content .imagebox img {
+  width:100%;
+  height:15vh;
+  cursor: pointer;
+}
+.imagebox h4{
+  color: #ffff;
+  font-size: 17px;
+  margin: -20px 80px;
+  position: absolute;
+}
